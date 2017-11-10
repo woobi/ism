@@ -1,0 +1,25 @@
+{
+  "name": "ISM",
+  "plugins": [],
+  "output": "../../ism-output-kodi",
+  "stations": [
+    {
+      "plugin": "ism-station-hdhomerun",
+      "output": "../../ism-output-kodi",
+      "config": {
+      }
+    }
+  ],
+  "Woobi": {
+    "transition": false,
+    "host": "studio.snowpi.org",
+    "proxy api": "/woobism",
+    "proxy": {
+      "port": 3888,
+      "host": "0.0.0.0",
+      "webApp": false
+    }
+  },
+  "smb": "smb://snow/projects/github/ism/media/dvr/",
+  "api": "ism"
+}

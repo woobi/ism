@@ -1,0 +1,20 @@
+{
+  "name": "ism",
+  "version": "0.0.1",
+  "description": "intranet station manager",
+  "main": "lib/ism.js",
+  "repository": "https://github.com/inquisive/ism",
+  "author": "inquisive",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "debug": "^3.1.0",
+    "fs-extra": "^4.0.2",
+    "jsonfile": "^4.0.0",
+    "lodash": "^4.17.4",
+    "mime": "^2.0.3",
+    "moment": "^2.19.1",
+    "tail-stream": "^0.3.4",
+    "tailing-stream": "^0.2.0"
+  }
+}
